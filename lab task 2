@@ -1,18 +1,18 @@
-#include<studio.h>
+include<stdio.h>
   int main()
 {
-  int batch year=2026;
-  char section = 'A';
-  float test score = 82.75;
-  double semester fee = 148500.5 ;
+  int batchYear = 2026;
+  char Section = 'A';
+  float testScore = 82.75;
+  double semesterFee = 148500.5 ;
   printf("==================================================================================================\n");
   printf("FAST-NUCES STUDENT PROFILE CARD\n ");
   printf("==================================================================================================\n");
-  printf("Batch Year :\t2026\n",batchyear);
-  printf("Section:\t AI-1A \n",section);
-  printf("Test Score:\t82.75\n",test score);
+  printf("Batch Year :\t2026\n",batchYear);
+  printf("Section:\t AI-1A \n",Section);
+  printf("Test Score:\t82.75\n",testScore);
   printf("Semester Fee:\tPKR2f\n");
-  printf("Motto:\t\t" Small daily steps lead to big success\"\n");
+  printf("Motto:\t\t\"Small daily steps lead to big success\"\n");
   printf("===================================================================================================\n");
-  return0;
+  return 0;
 }
