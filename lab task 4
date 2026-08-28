@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+char letter = 'H' ;
+int number = 42;
+float pi = 3.141590;
+double value = 98.765432;
+
+printf("Type Name\tVariable Value\tSize in Memory\n");
+
+printf("-------------------------------------------------------------------------------------------------------\n");
+ printf("char\t\t'%c'\t\t%d byte(s)\n", letter, (int)sizeof(letter));
+printf("int\t\t%d\t\t%d byte(s)\n", number,(int)sizeof(number));
+printf("float\t\t%.6f\t\t%d byte(s)\n" , pi,(int)sizeof(pi));
+printf("double\t\t%.6f\t\t%d byte(s)\n",value,(int)sizeof(value));
+
+printf("--------------------------------------------------------------------------------------------------------\n");
+return 0;
+}
