@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+double pf_marks = 88.0;
+double calculus_marks = 76.5;
+double physics_marks =82.0;
+
+int pf_credit = 3;
+int calculus_credit = 3;
+int physics_credit = 2;
+
+double total_weighted_score;
+int total_credit_hours;
+double weighted_average;
+
+total_weighted_score = (pf_marks * pf_credit) + (calculus_marks * calculus_credit) + (physics_marks * physics_credit);
+total_credit_hours = pf_credit + calculus_credit + physics_credit;
+
+weighted_average = total_weighted_score /total_credit_hours; 
